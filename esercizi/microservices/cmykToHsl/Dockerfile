@@ -6,4 +6,4 @@ COPY ./dist .
 
 EXPOSE 3000
 
-CMD ["node", "hexToRgb/src/HttpServer.js"]
+CMD ["node", "cmykToHsl/src/HttpServer.js"]
