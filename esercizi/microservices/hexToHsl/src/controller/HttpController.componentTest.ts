@@ -1,7 +1,7 @@
 import chai from 'chai';
 import chaiHttp from 'chai-http';
 import * as config from '../../server-config.json'
-import { hex2rgbTestData as testData } from '../../../commons/src/test-data/colors';
+import { hex2hslTestData as testData } from '../../../commons/src/test-data/colors';
 
 chai.config.includeStack = true;
 const should = chai.should();
@@ -19,7 +19,7 @@ describe('REST API test suite description', () => {
                 .end((err, res) => {
                     should.not.exist(err);
                     res.should.have.status(200);
-                    res.body.should.deep.equal(test.rgbValue);
+                    res.body.should.deep.equal(test.hslValue);
                     done();
                 });
         });
