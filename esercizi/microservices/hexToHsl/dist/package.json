@@ -31,7 +31,6 @@
   },
   "dependencies": {
     "color-convert": "^2.0.1",
-    "docker-compose": "^0.23.17",
     "express": "^4.17.3"
   },
   "devDependencies": {

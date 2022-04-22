@@ -1,12 +1,10 @@
 <testsuites name="Mocha Tests">
-  <testsuite name="test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2022-04-21T20:31:29" time="0.01">
+  <testsuite name="test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2022-04-22T12:27:05" time="0.03">
     <testcase classname="test suite description" name="test case description" time="0.002">
     </testcase>
     <testcase classname="test suite description" name="test case description" time="0">
     </testcase>
-    <testcase classname="test suite description" name="test case description" time="0">
-    </testcase>
-    <testcase classname="test suite description" name="test case description" time="0">
+    <testcase classname="test suite description" name="test case description" time="0.001">
     </testcase>
     <testcase classname="test suite description" name="test case description" time="0">
     </testcase>
@@ -17,6 +15,8 @@
     <testcase classname="test suite description" name="test case description" time="0">
     </testcase>
     <testcase classname="test suite description" name="test case description" time="0">
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.007">
     </testcase>
   </testsuite>
 </testsuites>
